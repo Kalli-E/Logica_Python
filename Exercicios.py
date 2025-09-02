@@ -6,7 +6,7 @@ estoque_loja = {"monitor":15, "mouse":30, "teclado":25, "placa de video":20, "he
 precos_produtos = {"monitor": 850.50, "mouse": 85.00, "teclado": 120.00, "placa de video": 1240.00, "headset": 250.00}
 
 produto_procurado = input("Qual o produto que você deseja: ")
-produto_procurado = produto_procurado.lower
+produto_procurado = produto_procurado.lower()
 
 # print(estoque_loja)
 # print(produtos_loja)
@@ -14,7 +14,7 @@ produto_procurado = produto_procurado.lower
 # print(precos)
 
 if produto_procurado in estoque_loja:
-    print(f"Esse produto está disponível! Temos {estoque_loja.count} unidades disponíveis")
+    print(f"Esse produto está disponível! Temos {estoque_loja[produto_procurado]} unidades de '{produto_procurado}' disponíveis")
 
 else:
     print(f"Este produto não está disponível em nosso estoque.")

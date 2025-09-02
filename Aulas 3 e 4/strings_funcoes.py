@@ -50,7 +50,7 @@ print(nome.title())
 
 #extrair informação de variáveis diferentes
 #pegar servidor do e-mail
-posicao_arroba = email_cliente.find("@") + 1
+posicao_arroba = email_cliente.find("@") + 1 # +1 para não pegar o @
 servidor = email_cliente[posicao_arroba:]
 print(servidor)
 
