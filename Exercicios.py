@@ -8,6 +8,7 @@ precos_produtos = {"monitor": 850.50, "mouse": 85.00, "teclado": 120.00, "placa 
 produto_procurado = input("Qual o produto que você deseja: ")
 produto_procurado = produto_procurado.lower()
 
+# Teste 1
 # print(estoque_loja)
 # print(produtos_loja)
 # print(quantidade_produtos)
@@ -20,7 +21,16 @@ else:
     print(f"Este produto não está disponível em nosso estoque.")
 
     
-
+#▪ Se o produto estiver em estoque:
+#▪ Pergunte ao usuário a quantidade desejada.
+#▪ Verifique se a quantidade solicitada é menor ou igual à quantidade em estoque.
+#▪ Se for, atualize o estoque subtraindo a quantidade vendida.
+#▪ Calcule o valor total da venda (quantidade * preço).
+#▪ Imprima uma mensagem de sucesso, como "Venda de X unidades de Y realizada com sucesso. Total: R$ Z".
+#▪ Se não houver quantidade suficiente:
+#▪ Imprima uma mensagem informando que não há estoque suficiente.
+#▪ Se o produto não existir:
+#▪ Imprima uma mensagem de erro, como "Produto não encontrado.".
 
 
 
