@@ -1,3 +1,5 @@
+# Automação com PyAutoGUI.  SO: Windows 10 versão 22H2. Resolução da tela: 1600x900
+
 import pyautogui as pygui
 import time
 
