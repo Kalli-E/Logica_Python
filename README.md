@@ -13,3 +13,8 @@
     Para instalar, utilizar:
     pip install selenium
     py -m pip install selenium
+
+> PyGame (ver. 2.6.1)
+    Para instalar, utilizar:
+    pip install pygame
+    py -m pip install -U pygame==2.6.1
