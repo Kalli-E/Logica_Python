@@ -18,3 +18,18 @@
     Para instalar, utilizar:
     pip install pygame
     py -m pip install -U pygame==2.6.1
+
+> Django (ver. 5.2.6)
+    para instalar, utilizar:
+    pip install django
+    py -m pip install Django
+
+    para iniciar um projeto:
+    django-admin startproject [nome-do-projeto]
+    python -m django startproject sitevendas
+
+> Neat
+    para instalar, utilizar:
+    pip install neat-python
+
+    
