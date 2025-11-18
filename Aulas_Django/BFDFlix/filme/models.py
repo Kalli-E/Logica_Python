@@ -4,10 +4,10 @@ from django.utils import timezone
 # Create your models here.
 
 LISTA_CATEGORIAS = (
-    ("AULAS", "Aulas"),
-    ("PROVAS", "Provas"),
-    ("CICLOS", "Ciclos"),
-    ("OUTROS", "Outros"),
+    ("aulas", "Aulas"),
+    ("provas", "Provas"),
+    ("ciclos", "Ciclos"),
+    ("outros", "Outros"),
 )
 
 #Criar o filme
@@ -18,3 +18,6 @@ class Filme(models.Model):
     categoria = models.CharField(max_length=15, choices=LISTA_CATEGORIAS)
     visualizacoes = models.IntegerField(default=0)
     data_cricao = models.DateTimeField(default=timezone.now)
+     
+    def __str__ (self):
+        return self.titulo
