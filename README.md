@@ -32,4 +32,9 @@
     para instalar, utilizar:
     pip install neat-python
 
-    
+> Pillow
+    para instalar, utilizar:
+    python -m pip install Pillow
+
+> Para saber o que está instalado, utilizar o comando: 
+    pip list
